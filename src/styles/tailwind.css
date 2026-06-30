@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root { color-scheme: light; }
+  html, body, #root { min-height: 100%; }
+  body { @apply text-white antialiased; background: linear-gradient(135deg, #4a0a3a 0%, #2d0a3d 40%, #0a2d3d 70%, #0a1f2e 100%); }
+}
+
+@layer utilities {
+  .text-glow { text-shadow: 0 0 10px rgba(255,16,240,0.8), 0 0 20px rgba(0,229,255,0.6), 0 0 40px rgba(255,44,251,0.4); }
+  .text-glow-subtle { text-shadow: 0 0 8px rgba(255,16,240,0.5), 0 0 15px rgba(0,229,255,0.4); }
+  .ring-neon { box-shadow: 0 0 0 2px rgba(255,16,240,0.7), 0 0 24px rgba(0,229,255,0.4); }
+  .neon-border { box-shadow: 0 0 10px rgba(255,16,240,0.5), 0 0 15px rgba(0,229,255,0.3); }
+}
+
+
