@@ -1,6 +1,6 @@
 # Google Sign-In – make it work
 
-Your app uses **Client ID**: `454395744770-g89oicr8rn86kgmdn7n4r2mebknfjc6h.apps.googleusercontent.com`  
+Your app uses **Client ID**: `973772894057-dqlr6ktlisv062nor30c1nqvekhjhrau.apps.googleusercontent.com`  
 *(Client secret is for server-side only—never put it in frontend code.)*
 
 ## 1. Google Cloud Console (required)

@@ -11,7 +11,7 @@ if (!rootEl) {
 } else {
   const clientId =
     (import.meta.env.VITE_GOOGLE_CLIENT_ID as string | undefined)?.trim() ||
-    '421570238335-gc4j4t3oaf90d2q2r4enaoes09d0ierj.apps.googleusercontent.com'
+    '973772894057-dqlr6ktlisv062nor30c1nqvekhjhrau.apps.googleusercontent.com'
 
   ReactDOM.createRoot(rootEl).render(
     <React.StrictMode>
